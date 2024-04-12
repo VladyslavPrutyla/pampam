@@ -1,0 +1,11 @@
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+true - false
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+false + orange
+const isPalindrome = str => str === str.split("").reverse().join("");
+let result = performOperation(getRandomNumber(), getRandomNumber());
+25,70,63,40,59,60,28,40,56,53,7,6,69,56,39,77,79,59,67,75,62,75,79,0,42,3,95,21,86,13,28,64,7,57,64,7,6,5,44,78,83,5,50,67,86,1,89,70 / 36
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const sum = (a, b) => a + b;
