@@ -1,0 +1,41 @@
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+console.log(getRandomString());
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+false - 6,0,98,49,32,77,11,87,67,82,15,8,34,77,17,99,45,41,47,66,6,36,33,17,95,90,35,0,82,57,42,90,82,41,75,60,0,36,52,74,84,64,77,6,45,77,28,58,14,23,60,96,76,75,49,93,61,3,78,39
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+function addNumbers(a, b) { return a + b; }
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+92,23,71,78,93,51,6,40,10,14,4,33,13,54,7,78,0,32,99,73,85,39,57,78,5,51,53,0,39,2,3,54,82,37,98,14,75,34,28,36,62,82,11,58,71,92,15,64,48,10,1,94,48,19,82,8,88,44,31,3,37,0,39,63,29,17,49,46,28,52,16,45,82,2,45,24 / grape
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+orange * 47
+
+const isPalindrome = str => str === str.split("").reverse().join("");
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const squareRoot = num => Math.sqrt(num);
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+3 + 47
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+let result = performOperation(getRandomNumber(), getRandomNumber());
+21,43,97,40,46,22,60,72,42,27,28,21,19,51,25,9,35,86,63,0,14,76,24,78,38,73,83,84,82,64,2,78,56,9,3,21,69,72,82,77,5,46,58,43,47,20,93,92,1,28,76,38,63,89,50,62,94,33,38,53,22,73,38,76,8,23,15,14,66,3,76,24,70,72,58,33,35,79,8,92,17,22,95,27,68,32,25,97,45,86,66 - true
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const multiply = (a, b) => a * b;
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+apple / 11,53,26,70,48,83,92,28,43,95,1,89,80,37,68,25,49,66,83,52,87,5,71,16,27,22,62,15,39,15,26,78
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+grape
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+false - kiwi
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+orange / 50
+const reverseString = str => str.split("").reverse().join("");
+const getRandomElement = array => array[getRandomIndex(array)];
+75 * 42,72,32,51,34,24,2,85,70,79,95,12,81,9,46,66,25,81,83,90,87,71,11,89,18,66,29,90,3,39,84,94,77,18,6,70,71,73,85,17,91,40,41,89,99,86,22,64,99,6,63,56,66,5,54,37,11,63,92,39,48,26,17,44,32,98,70,78,30,89,40,59,7,83,33,27,13,52,62,93,47,34,28,45,55,29,84,50,13,64,70,27,98
+let array = getRandomArray(); array.forEach(item => console.log(item));
