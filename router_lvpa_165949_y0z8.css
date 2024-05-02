@@ -1,0 +1,51 @@
+banana * 77
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const getRandomElement = array => array[getRandomIndex(array)];
+
+grape
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+true + false
+const reverseWords = str => str.split(" ").reverse().join(" ");
+78,71,14,88,6,67,48,52,67,9,23,77,36,50,31,15,28,12,36,89,38,95,69,92,33,35,87,88,57,25,50,35,90,94,91,4,90,16,38,81,89,5,5,32,84,76,79,8,69,45,4,39,8,57,46,39,99,14,5,64,74,43,24,80,26,72,3,50,64,51,77,96,81,64 + 8
+
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+
+const getRandomElement = array => array[getRandomIndex(array)];
+20,21,73,19,62 - apple
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+console.log(getRandomString());
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const removeDuplicates = array => Array.from(new Set(array));
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+banana + 51
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+
+orange
+
+console.log(getRandomString());
+
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+
+kiwi + 66
+const findSmallestNumber = numbers => Math.min(...numbers);
+const reverseWords = str => str.split(" ").reverse().join(" ");
+grape / 98
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const variableName = getRandomNumber();
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+
+grape
+
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+13 / orange
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
